@@ -1,0 +1,351 @@
+{
+  "beststudents" : {
+    "year1" : {
+      "grade10" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studenlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "grade11" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "student1" : {
+            "class" : "10 A",
+            "grade" : "10 %",
+            "name" : "Asmaa Mohammad",
+            "teacher" : "Mrs. Khadija Ahmad"
+          },
+          "student2" : {
+            "class" : "10 B",
+            "grade" : "9 %",
+            "name" : "Yasmin Mohammad",
+            "teacher" : "Mrs. Shaima Musa"
+          }
+        }
+      },
+      "grade12" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "img" : "https://firebasestorage.googleapis.com/v0/b/aisha-school.appspot.com/o/2014-2015.png?alt=media&token=26175600-9ab9-458c-8bf2-c32ae2f11020",
+      "visible" : true,
+      "year" : "2014-2015"
+    },
+    "year2" : {
+      "grade10" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studenlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "grade11" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "student1" : {
+            "class" : "10 A",
+            "grade" : "10 %",
+            "name" : "Asmaa Mohammad",
+            "teacher" : "Mrs. Khadija Ahmad"
+          },
+          "student2" : {
+            "class" : "10 B",
+            "grade" : "9 %",
+            "name" : "Yasmin Mohammad",
+            "teacher" : "Mrs. Shaima Musa"
+          }
+        }
+      },
+      "grade12" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "img" : "https://firebasestorage.googleapis.com/v0/b/aisha-school.appspot.com/o/2015-2016.png?alt=media&token=03c93b58-b3c6-48e3-b490-551fbe57aaac",
+      "visible" : true,
+      "year" : "2015-2016"
+    },
+    "year3" : {
+      "grade10" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studenlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "grade11" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "student1" : {
+            "class" : "10 A",
+            "grade" : "10 %",
+            "name" : "Asmaa Mohammad",
+            "teacher" : "Mrs. Khadija Ahmad"
+          },
+          "student2" : {
+            "class" : "10 B",
+            "grade" : "9 %",
+            "name" : "Yasmin Mohammad",
+            "teacher" : "Mrs. Shaima Musa"
+          }
+        }
+      },
+      "grade12" : {
+        "termlist1" : {
+          "name" : "Term 1, January - March",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        },
+        "termlist2" : {
+          "name" : "Term 2, March - June",
+          "studentlist" : {
+            "student1" : {
+              "class" : "10 A",
+              "grade" : "10 %",
+              "name" : "Asmaa Mohammad",
+              "teacher" : "Mrs. Khadija Ahmad"
+            },
+            "student2" : {
+              "class" : "10 B",
+              "grade" : "9 %",
+              "name" : "Yasmin Mohammad",
+              "teacher" : "Mrs. Shaima Musa"
+            }
+          }
+        }
+      },
+      "img" : "https://firebasestorage.googleapis.com/v0/b/aisha-school.appspot.com/o/2016-2017.png?alt=media&token=c51728b7-6350-40da-98c7-7beb8afbd597",
+      "visible" : true,
+      "year" : "2016-2017"
+    }
+  },
+  "news" : {
+    "test2news" : {
+      "header" : "some header here",
+      "img" : "https://firebasestorage.googleapis.com/v0/b/aisha-school.appspot.com/o/HZ8A5aI8TR64BhCbWMrp_news2.png?alt=media&token=8191f1a6-661c-4c38-bc37-ddb3c153a710",
+      "longtext" : "first news appears here, some long text of the school to understand the proof of something what is not ",
+      "shorttext" : "some kind of info here"
+    },
+    "testNews" : {
+      "header" : "Top News 1",
+      "img" : "https://firebasestorage.googleapis.com/v0/b/aisha-school.appspot.com/o/newExample.png?alt=media&token=b28ac6fc-ae9a-428a-a4c6-ce5b8d5a5e7a",
+      "longtext" : "this is the long txt of this news. This news has a long message ",
+      "shorttext" : "short text of this news"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<!--
+  Generated template for the BeststudentsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header >
+
+  <ion-navbar>
+    <ion-title >المتفوقات</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background:url(assets/img/L7Z5UPIQPOXgvbpF3nvv_bg.jpg) no-repeat center;background-size:cover;">
+  <ion-list text-wrap  *ngFor="let item of yearFirebase | async" >
+    <ion-item   *ngIf="item.visible === true" class="text" no-lines text-right (click)="yearclicked(item.year)"  >
+
+      <ion-thumbnail item-start >
+        <img src={{item.img}}>
+      </ion-thumbnail>
+
+
+      <button style="font-size: 20px"  ion-button clear item-end>عرض</button>
+    
+    </ion-item>
+
+    </ion-list>
+</ion-content>

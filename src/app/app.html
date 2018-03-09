@@ -1,0 +1,44 @@
+<ion-menu [content]="content" side="right">
+
+
+
+    <ion-content style="background-color: #f2deb5">
+<h2 padding text-right style="font-weight: bold; color: grey; -webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">القائمة</h2>
+
+      <div class="spacer" style=" height:11px; "></div>
+
+      <button ion-button (click) = "loginclicked()" block clear large style="color: grey; -webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">تسجيل الدخول</button>
+
+<button ion-button *ngIf="newsactive"  (click)="newsadmin()" block clear large style="color: grey;-webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">إضافة الأخبار</button>
+
+<button ion-button *ngIf="newsactive" (click)="newsremove()" block clear large style="color: grey;-webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">إزالة الأخبار</button>
+
+<button ion-button *ngIf="newsactive" (click)="yearsadmin()" block clear large style="color: grey;-webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">إدارة المتفوقات</button>
+
+
+<button ion-button *ngIf="newsactive" (click)="pdfadmin()" block clear large style="color: grey;-webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);">إدارة PDF</button>
+
+<button ion-button (click) = "logoutclicked()" block clear large style="color: grey; -webkit-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+-moz-box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);
+box-shadow: 11px 7px 26px 1px rgba(130,123,130,1);"> خروج</button>
+
+    </ion-content>
+
+</ion-menu>
+
+<ion-nav  #content [root]="rootPage" swipeBackEnabled="false" ></ion-nav>
+
+
+<!--ion-nav [root]="rootPage"></ion-nav-->

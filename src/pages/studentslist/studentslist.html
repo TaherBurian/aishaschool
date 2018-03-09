@@ -1,0 +1,41 @@
+<!--
+  Generated template for the StudentslistPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-right>{{termname}}  <ion-icon name="settings" [hidden]="settings_mode" text-right></ion-icon></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h2 text-right>{{studentslist_header}}</h2>
+<h2 text-right>{{grade_header}}</h2>
+
+  <ion-list text-wrap>
+    <ion-item-sliding class="text" *ngFor="let item of (studentslistFirebase | async)?.slice().reverse()" text-right (click)="studentclicked(item)">
+    <ion-item>
+      <!--ion-thumbnail item-start>
+        <img src={{item.img}}>
+      </ion-thumbnail-->
+      <h2> {{item.name}}</h2>
+
+
+      <button ion-button clear item-end style="font-size: 20px" >عرض</button>
+    </ion-item>
+    <ion-item-options [hidden]="settings_mode" side="right" text-right style="direction:rtl">
+        <button color="danger" ion-button (click)="deletestudent(item)"> <ion-icon name="trash"></ion-icon>حذف</button>
+        <!--button color="light" ion-button (click)="editstudent(item)"> <ion-icon name="cog"></ion-icon> Edit </button-->
+
+      </ion-item-options>
+
+      </ion-item-sliding>
+    </ion-list>
+    <button color="default" [hidden]="settings_mode" block ion-button icon-right (click)="addstudent()"> <ion-icon name="add-circle"></ion-icon> إضافة طالب</button>
+
+</ion-content>

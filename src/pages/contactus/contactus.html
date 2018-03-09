@@ -1,0 +1,31 @@
+<!--
+  Generated template for the ContactusPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-right>اتصل بنـا</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="card-background-page" style="background-color: #f2deb5">
+  <p text-right>
+تتشرف مدرسة عائشة بنت أبي بكر الثانوية المستقلة بتواصلكم معها في مواعيد العمل الرسمية من خلال زيارتكم لمقر المدرسة أو من خلال قنوات الاتصال التالية
+</p>
+<ion-card (click)="showlocation()">
+  <img src="assets/img/location.png"/>
+  <div class="card-title">موقع جغرافي</div>
+</ion-card>
+<ion-card (click) = "showcontactinfo()">
+  <img src="assets/img/contact.png"/>
+  <div class="card-title"> قنوات الاتصاال</div>
+  <div class="card-subtitle"></div>
+</ion-card>
+
+
+</ion-content>

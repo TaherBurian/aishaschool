@@ -1,0 +1,36 @@
+<!--
+  Generated template for the PdfadminPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PDF الادارة</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <p text-right>انقر للتعديل</p>
+    <!--p color="danger" text-right> لإزالة البند يرجى الشريحة</p-->
+
+  <ion-list >
+    <ion-item-sliding class="text" *ngFor="let item of pdfFirebase | async" text-right>
+
+    <ion-item    class="text" no-lines text-right (click)="pdfclicked()"  >
+  <p>اسم</p>
+        <p> {{item.name}}</p>
+
+          <p>ربط</p>
+          <p> {{item.link}}</p>
+    </ion-item>
+    <ion-item-options side="right" text-right style="direction:rtl">
+        <!--button color="danger" ion-button (click)="deletepdf(item)"> <ion-icon name="trash"></ion-icon> حذف</button-->
+      </ion-item-options>
+</ion-item-sliding>
+    </ion-list>
+</ion-content>

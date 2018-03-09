@@ -1,0 +1,8 @@
+{
+  "name": "aischool",
+  "app_id": "d4845dc9",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

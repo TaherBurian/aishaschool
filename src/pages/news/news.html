@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title> عيون الصحافة </ion-title>
+
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+
+
+  </ion-navbar>
+</ion-header>
+<ion-content   id="news">
+  <!--div class="spacer" style="width:300px;height:9px;" id="home-spacer1"></div-->
+  <div>
+    <img src="assets/img/newsphoto.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  </div>
+  <div class="spacer" style="width:300px;height:9px;" id="home-spacer1"></div>
+
+  <ion-list text-wrap>
+    <ion-item class="text" *ngFor="let item of itemFirebase | async" text-right (click)="newsitemclicked(item.longtext, item.img)">
+      <ion-thumbnail item-start>
+        <img src={{item.img}}>
+      </ion-thumbnail>
+      <h2> {{item.header}}</h2>
+    <p>  {{item.shorttext}}</p>
+
+      <button ion-button clear item-end style="font-size: 20px;">عرض</button>
+    </ion-item>
+    </ion-list>
+
+
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,28 @@
+page-beststudents {
+  ion-thumbnail{
+
+    width: 60% !important;
+  }
+  img{
+    width: 250px !important;
+    height: 150px ;
+  }
+  item-inner{
+
+    width: 20% !important;
+  }
+  ion-item{
+    padding: 10px !important;
+border-radius: 15px;
+    margin: 6px !important;
+    width: 96% !important;
+    -webkit-box-shadow: 10px 16px 39px 1px rgba(0,0,0,0.68) !important;
+      -moz-box-shadow: 10px 16px 39px 1px rgba(0,0,0,0.68) !important;
+      box-shadow: 10px 16px 39px 1px rgba(0,0,0,0.38) !important;
+  }
+  .item-md {
+
+      background-color: #f2deb5;
+    }
+    
+}
